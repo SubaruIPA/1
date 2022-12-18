@@ -1,1 +1,72 @@
-пошёл нахуй
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.GoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 212, 144)
+TextButton.Position = UDim2.new(0.272948831, 0, 0.535802484, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 244)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0.075000003, 0)
+UICorner.Parent = TextButton
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 212, 144)
+TextButton_2.Position = UDim2.new(0.451665342, 0, 0.535802484, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 244)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0.075000003, 0)
+UICorner_2.Parent = TextButton_2
+
+TextButton_3.Parent = ScreenGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 212, 144)
+TextButton_3.Position = UDim2.new(0.363931775, 0, 0.217283949, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 463)
+TextButton_3.ZIndex = 0
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = ScreenGui
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 46, 147)
+TextButton_4.Position = UDim2.new(0.363931775, 0, 0.144444451, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 59)
+TextButton_4.ZIndex = 0
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = ScreenGui
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.Position = UDim2.new(0.441917151, 0, 0.144444451, 0)
+TextButton_5.Size = UDim2.new(0, 5, 0, 22)
+TextButton_5.ZIndex = 0
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = ""
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
